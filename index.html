@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Montgomery Grill</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="./assets/food header image.png" alt="" class="header-image">
+			<div class="share-icon">
+				<img src="./assets/share_icon.svg" alt="share-icon">
+			</div>
+		</div>
+
+		<div class="logo-container">
+			<div class="logo-inner">
+				<img src="./assets/Montgomery Grill.png" class="logo" alt="Montgomery Grill Logo">
+			</div>
+		</div>
+
+		<div class="circle-overlay"></div>
+
+		<div class="content">
+
+			<div class="top-section">
+				<div class="restaurant-info">
+					<h1 class="restaurant-name">Montgomery Grill</h1>
+					<p class="tagline">Flavours as Refined as the Greens</p>
+				</div>
+				<div class="social-icons">
+					<a href="https://www.instagram.com/montgomerygolfresort?igsh=MmNsc2NqbzIzNW1r&utm_source=qr">
+						<img src="./assets/instagram_logo.svg" alt="Instagram Icon" class="social-icon">
+					</a>
+					<a href="https://www.tiktok.com/@montgomerygolfresort">
+						<img src="./assets/tiktok_logo.svg" alt="TikTok Icon" class="social-icon">
+					</a>
+					<a href="https://web.facebook.com/montgomeryresidences/?_rdc=1&_rdr#">
+						<img src="./assets/facebook_logo.svg" alt="Facebook Icon" class="social-icon">
+					</a>
+
+				</div>
+			</div>
+
+			<div class="middle-section">
+				<div class="button-container">
+					<a href="https://bit.ly/3QXClAl" class="button">Montgomery Grill Menu</a>
+					<a href="https://bit.ly/4hWgjZD" class="button">Montgomery Grill Pay</a>
+				</div>
+			</div>
+
+			<!--Button Code line without link-->
+			<!-- <div class="middle-section">
+				<div class="button-container">
+					<div class="button">Montgomery Grill Menu</div>
+					<div class="button">Montgomery Grill Pay</div>
+				</div>
+			</div> -->
+
+			<div class="bottom-section">
+				<div class="footer">
+					© 2025 Powered by <a href="https://wa.me/qr/YFPCRJFZP6CYI1" class="teepz">Teepz<sup>+</sup></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="share-modal" id="shareModal">
+        <div class="modal-content">
+            <p>Share this page:</p>
+            <input type="text" value="https://example.com/montgomery-grill" id="shareLink">
+            <button onclick="closeModal()" class="close">Close</button>
+            <button onclick="copyLink()">Copy Link</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
